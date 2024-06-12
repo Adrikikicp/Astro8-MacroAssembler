@@ -14,7 +14,8 @@ The [Armstrong compiler](https://github.com/sam-astro/Astro8-Computer), as well 
 
 ## Building:
 
-Run ```bash  make build``` and the program will compile.
+Run ```bash
+    make build``` and the program will compile.
 
 ADDITIONAL AND IMPORTANT NOTE: The makefile will search for the [Armstrong compiler](https://github.com/sam-astro/Astro8-Computer). If you don't have it, make sure to install it manually instead. We don't add prebuilt binaries to the repository.
 
