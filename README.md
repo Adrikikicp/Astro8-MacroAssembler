@@ -14,11 +14,9 @@ The [Armstrong compiler](https://github.com/sam-astro/Astro8-Computer), as well 
 
 ## Building:
 
-Goto tools/razzle.cmd and run it (for Linux users use prebuild.sh instead).
+Run ```bash  make build``` and the program will compile.
 
-After that, run make build and the program will compile.
-
-ADDITIONAL AND IMPORTANT NOTE: The makefile will search for the Armstrong compiler. If you don't have it, make sure to install it manually instead. We don't add prebuilt binaries to the repository.
+ADDITIONAL AND IMPORTANT NOTE: The makefile will search for the [Armstrong compiler](https://github.com/sam-astro/Astro8-Computer). If you don't have it, make sure to install it manually instead. We don't add prebuilt binaries to the repository.
 
 After that, you should have the compiler and assembler files.
 
@@ -28,4 +26,4 @@ Feel free to contribute to this program, but make sure you read the CONTRIBUTING
 
 ## License
 
-This project is under the [MIT License](https://github.com/Adrikikicp/Astro8-MacroAssembler/blob/main/LICENSE)
+This project is licensed under the [MIT License](https://github.com/Adrikikicp/Astro8-MacroAssembler/blob/main/LICENSE)
