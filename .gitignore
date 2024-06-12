@@ -1,6 +1,12 @@
 # Prerequisites
 *.d
 
+# Avoid completely vscode generation
+
+.vscode/*
+*.sln
+*.vcxproj
+
 # Object files
 *.o
 *.ko
