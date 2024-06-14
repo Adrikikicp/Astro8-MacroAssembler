@@ -1,14 +1,10 @@
 # Using the GCC
 
-CC=gcc
-SRC_DIR=$(wildcard src/*.h)\
-						$(wildcard src/*/*.h)\
-						$(wildcard src/*/*/*.h)\
-						$(wildcard src/*/*/*/*.h)\
-						$(wildcard src/*.c)\
-						$(wildcard src/*/*.c)\
-						$(wildcard src/*/*/*.c)\
-						$(wildcard src/*/*/*/*.c)\
+
+SRC_DIR=$(wildcard src/*.cpp)\
+						$(wildcard src/*/*.cpp)\
+						$(wildcard src/*/*/*.cpp)\
+						$(wildcard src/*/*/*/*.cpp)\
 
 OBJ_DIR=$(wildcard obj/*.o)\
 							$(wildcard obj/*/*.o)\
@@ -17,7 +13,7 @@ OBJ_DIR=$(wildcard obj/*.o)\
 
 BUILD_DIR=build/
 
-
+CC=g++
 CFLAGS= -g -Wall -Wextra
 
 ARM=astro8
