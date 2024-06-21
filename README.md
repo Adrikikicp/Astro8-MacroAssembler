@@ -5,6 +5,7 @@ Astro8-MASM: The Macro Assembler and compiler for the Astro-8 computing set.
 ## Prerequisites:
 
 Have gcc (mingw or wsl for windows) installed on your machine
+Note: I'm currently adding CMake to the project, so it can run on Visual Studio. Work in progress
 
 GNU make
 
